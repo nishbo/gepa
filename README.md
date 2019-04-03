@@ -28,7 +28,7 @@ This project's code is available on [GitHub](https://github.com/nishbo/gepa).
 
 ## Example
 
-For an example of using this module, see [musculoskeletal_approximation](https://github.com/neurowired/musculoskeletal_approximation) repository, where the method is applied to musculoskeletal data.
+For an example of using this module, see [musculoskeletal_approximation](https://github.com/neurowired/musculoskeletal_approximation) repository, where the method is applied to musculoskeletal data. A similar, but more varied example can be found at [haptix-interpolation](https://bitbucket.org/nishbo/haptix-interpolation).
 
 ## Authors
 
