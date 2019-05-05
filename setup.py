@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-readme = open('README.txt').read()
+readme = open('README.md').read()
 setup(name='gepapy',
       version='0.3.22',
       description='Good-enough polynomial approximation.',
