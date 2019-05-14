@@ -2,6 +2,8 @@
 
 The mudule implements polynomial approximation of multidimensional data. Specifically, it focuses on approximation of data that theoretically can be represented as a system of differential equations. The algorithm is a development of forward stepwise regression with a basis of multidimensional polynomials of a desired power or less.
 
+Private version of the repository.
+
 ## Getting Started
 
 This project's code is available on [GitHub](https://github.com/nishbo/gepa).
