@@ -230,6 +230,7 @@ def approximate_ascending(x, y, metric_f, itcf=None,
 
     if return_progress:
         dump = []
+        dump1 = [c_winner]
 
     if verbose:
         print '{}Starting fit.'.format(verbose_prefix)
@@ -241,6 +242,7 @@ def approximate_ascending(x, y, metric_f, itcf=None,
                 min_metr, min_metr_sdif, return_candidates=True,
                 look_ahead=look_ahead)
             dump.append(dump_buf)
+            dump1.append(c_winner)
         else:
             improving, c_winner = improve_once(
                 x, y, c_winner, full_dic, metric_f, itcf,
@@ -260,7 +262,7 @@ def approximate_ascending(x, y, metric_f, itcf=None,
         c_winner['residuals'] = numpy.inf
 
     if return_progress:
-        return (c_winner, dump)
+        return (c_winner, dump1, dump)
 
     return c_winner
 
